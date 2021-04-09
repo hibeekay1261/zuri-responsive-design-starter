@@ -345,3 +345,31 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+@media only screen and (max-width: 600px) {
+    div.nav-bar {
+        display: column;
+        justify-content: space-around;
+        padding: 1rem 6rem;
+        width: 100vw;
+        background: #304353;
+    }
+    div.hero-background {
+        background: #f0f0f0;
+        padding: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.snapshot-team {
+            background: #E44C65;
+            text-align: center;
+            padding-top: 1rem;
+        }
+        div.snapshot-box {
+            display: column;
+            justify-content: center;
+            align-items: center;
+            background: #f0f0f0;
+            padding: 2rem 4rem;
+        }
